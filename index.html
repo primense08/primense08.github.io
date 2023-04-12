@@ -4,7 +4,7 @@
     <style>
  
         * {
-            box-sizing: border-box;
+            
         }
         a:link {
          text-decoration: none;
@@ -16,7 +16,6 @@
             transform: scale(20px)
         }
         
-
 
         a:active {
             text-decoration: none;
@@ -32,19 +31,13 @@
             justify-content: center;
       
         }
-      
-
-
-        
-      
-
-
 
         .box-content {
             display:flex;
             font-family: "Arial", Helvetica, sans-serif;
             text-align: center;
         }
+
         .box {
             width: 31%;
             display: flex;
@@ -63,7 +56,7 @@
             background:white;
             width:200px;
             font-size: 50px;
-            margin-top: 70px;
+            margin-top: 100px;
             font-weight: bold;
             font-family: "Arial", Helvetica, sans-serif;
 
@@ -72,15 +65,31 @@
         .box-heading {
             display: flex;
             justify-content: center;
-            background: black;
+            background-color: black;
             color: white;
             margin-top: -10px;
             width:calc(100% + 20px);
             margin-left: -10px;
             font-family: "Arial", Helvetica, sans-serif;
-            min-height:45px;
+            min-height:100px;
             align-items: center;
+            
+        } 
+        .title {
+            text-align: center;
+            
+
         }
+
+    
+
+
+       
+
+    
+        
+          
+    
 
 
         @media (max-width: 1000px) {
@@ -89,7 +98,7 @@
                 flex-direction: row;
 
             }
-            .box{
+            .box {
                 display:flex;
                 flex-direction: row;
                 justify-content: center;
@@ -99,11 +108,15 @@
             .box-heading {
                 display:flex;
                 margin-right: -10px;
+                background-color: black;
 
 
             }
 
 
+        }
+        .animation {
+            font-family: cursive;
         }
         
         
@@ -114,37 +127,43 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+ <div class="title">
+    <h1>Title</h1>
+ </div>
   <div class="container">
     <div class="box">
-        <h2 class="box-heading">MACCHIATO</h2>
+        <h3 class="box-heading">MACCHIATO</h3>
         <p class="box-content">ASD etc etc etc this is currently a test environment I am trialing. 
           It should approximately 50 words per paragraph yet that won't be the case. 
           TWS is responsible for the delivery on maintained websites both within the intranet and the internet.</p>
         <a class="box-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Button</a>
     </div>
     <div class="box">
-        <h2 class="box-heading">ESPRESSO</h2>
+        <h3 class="box-heading">ESPRESSO</h3>
         <p class="box-content">ASD etc etc etc this is currently a test environment I am trialing. 
           It should approximately 50 words per paragraph yet that won't be the case. 
           TWS is responsible for the delivery on maintained websites both within the intranet and the internet.</p>
         <a class="box-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Button</a>
     </div>
     <div class="box">
-        <h2 class="box-heading">LATTE</h2>
+        <h3 class="box-heading">LATTE</h3>
         <p class="box-content">ASD etc etc etc this is currently a test environment I am trialing. 
           It should approximately 50 words per paragraph yet that won't be the case. 
           TWS is responsible for the delivery on maintained websites both within the intranet and the internet.</p>
         <a class="box-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Button</a>
     </div>
     <div class="box">
-        <h2 class="box-heading">FLAT WHITE</h2>
+        <h3 class="box-heading">FLAT WHITE</h3>
         <p class="box-content">ASD etc etc etc this is currently a test environment I am trialing. 
           It should approximately 50 words per paragraph yet that won't be the case. 
           TWS is responsible for the delivery on maintained websites both within the intranet and the internet.</p>
         <a class="box-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Button</a>
     </div>
   </div>
-  <h3> Animation Hover </h3>
+  <div class="animation">
+    <h3> Animation Hover </h3>
+  </div>
+  
 </body>
-<h4>test</h4>
+
 
