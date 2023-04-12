@@ -1,18 +1,150 @@
-<!DOCTYPE html> 
-<head>
-  <title>
-    Test
-    
-  </title>
-    
-<meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+ 
+        * {
+            box-sizing: border-box;
+        }
+        a:link {
+         text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: red;
+            transform: scale(20px)
+        }
+        
+
+
+        a:active {
+            text-decoration: none;
+            color: blue;
+
+        }
+
+/*  allowing the container to stay together with other body paragraphs */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+      
+        }
+      
+
+
+        
+      
+
+
+
+        .box-content {
+            display:flex;
+            font-family: "Arial", Helvetica, sans-serif;
+            text-align: center;
+        }
+        .box {
+            width: 31%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            margin: 10px;
+            padding:10px;
+            flex-direction: column;
+            background: aqua;
+            align-items: center;
+
+        }
+        .box-button {
+            display:flex;
+            justify-content: center;
+            background:white;
+            width:200px;
+            font-size: 50px;
+            margin-top: 70px;
+            font-weight: bold;
+            font-family: "Arial", Helvetica, sans-serif;
+
+
+        }
+        .box-heading {
+            display: flex;
+            justify-content: center;
+            background: black;
+            color: white;
+            margin-top: -10px;
+            width:calc(100% + 20px);
+            margin-left: -10px;
+            font-family: "Arial", Helvetica, sans-serif;
+            min-height:45px;
+            align-items: center;
+        }
+
+
+        @media (max-width: 1000px) {
+            body .container {
+                display: flex;
+                flex-direction: row;
+
+            }
+            .box{
+                display:flex;
+                flex-direction: row;
+                justify-content: center;
+                width:100%;
+
+            }
+            .box-heading {
+                display:flex;
+                margin-right: -10px;
+
+
+            }
+
+
+        }
+        
+        
+        
+
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<h1>H O V E R M E</h1>
-<body/>
+  <div class="container">
+    <div class="box">
+        <h2 class="box-heading">MACCHIATO</h2>
+        <p class="box-content">ASD etc etc etc this is currently a test environment I am trialing. 
+          It should approximately 50 words per paragraph yet that won't be the case. 
+          TWS is responsible for the delivery on maintained websites both within the intranet and the internet.</p>
+        <a class="box-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Button</a>
+    </div>
+    <div class="box">
+        <h2 class="box-heading">ESPRESSO</h2>
+        <p class="box-content">ASD etc etc etc this is currently a test environment I am trialing. 
+          It should approximately 50 words per paragraph yet that won't be the case. 
+          TWS is responsible for the delivery on maintained websites both within the intranet and the internet.</p>
+        <a class="box-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Button</a>
+    </div>
+    <div class="box">
+        <h2 class="box-heading">LATTE</h2>
+        <p class="box-content">ASD etc etc etc this is currently a test environment I am trialing. 
+          It should approximately 50 words per paragraph yet that won't be the case. 
+          TWS is responsible for the delivery on maintained websites both within the intranet and the internet.</p>
+        <a class="box-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Button</a>
+    </div>
+    <div class="box">
+        <h2 class="box-heading">FLAT WHITE</h2>
+        <p class="box-content">ASD etc etc etc this is currently a test environment I am trialing. 
+          It should approximately 50 words per paragraph yet that won't be the case. 
+          TWS is responsible for the delivery on maintained websites both within the intranet and the internet.</p>
+        <a class="box-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Button</a>
+    </div>
+  </div>
+  <h3> Animation Hover </h3>
+</body>
+<h4>test</h4>
 
-
-
-
-</html>
